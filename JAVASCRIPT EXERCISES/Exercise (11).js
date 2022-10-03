@@ -4,5 +4,8 @@
 // would like to own a Honda motorcycle.”
 
 
-const transport=["BIKE"]
-console.log(transport + " is my favourite method of trnasport.")
+const car=["CIVIC","AQUA","PRIUS","CULTUS"]
+console.log(car[0] + " is my favourite car.")
+console.log(car[1] + " is very fuel efficient car.")
+console.log(car[2] + " is very good looking car.")
+console.log(car[3] + " is easy to commute in karachi.")
