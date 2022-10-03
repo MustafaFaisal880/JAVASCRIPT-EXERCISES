@@ -10,20 +10,23 @@
 //
 // • Write one version of this program that runs the if block and another that runs the else block.
 
-var alien_color=['green','yellow','red']
-
-for(var i=0;i<alien_color.length;i++)
-{
-    if(alien_color[i]=='violet')
+let alien_color='green'
+    if(alien_color=='green')
     {
         console.log('\nYOU EARNED 5 POINTS')
     }
     else
     {
         console.log("\nYOU EARNED 10 POINTS ")
-        break;
     }
-}
+     alien_color='yellow'
+    if(alien_color=='yellow')
+    {
+        console.log('\nYOU EARNED 10 POINTS')
+    }
+    
+
+console.log("ANOTHER VERSION WITH NO OUTPUT")
 for(var j=0;i<alien_color.length;j++)
 {
     console.log(alien_color[j]=='violet'? "YOU GOT 5 POINTS":"\nGOT NOTHING")
