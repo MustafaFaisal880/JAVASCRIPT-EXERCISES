@@ -1,10 +1,8 @@
-// Think of something you could store in a array. For example, you could make a list of mountains, rivers, countries, cities, languages, or anything else you’d like. Write a program that creates a list containing these items.
+// Intentional Error: If you haven’t received an array index error in one of your programs yet, try to make one happen. 
+// Change an index in one of your programs to produce an index error. Make sure you correct the error before closing the program.
 
 var countries=["PAK",'IND',"AUS",'USA','CHINA']
+console.log(countries[5])
+Console.log("INTENTIONAL ERROR ABOVE")
+
 console.log(countries)
-
-let person={
-countries : ["PAK",'IND',"AUS",'USA','CHINA']
-
-}
-console.log(person.countries)
