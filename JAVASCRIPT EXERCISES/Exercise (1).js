@@ -7,4 +7,4 @@
                                        // 1st EXERCISE:
 
 var name = "MUSTAFA"
-console.log("HELLO " + name + " HOW ARE YOU?")
+console.log("HELLO " + name + ", would you like to learn some javascript today?")
