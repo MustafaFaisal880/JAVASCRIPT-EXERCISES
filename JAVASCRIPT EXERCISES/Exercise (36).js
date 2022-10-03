@@ -9,12 +9,15 @@
 function make_album(artistName,albumTitle,noSong){
     let musicAlbum={
         artistName,
-        albumTitle,noSong
+        albumTitle,
+        noSong
     }
     console.log(musicAlbum)
     }
+    console.log(make_album)
     console.log("It is returning a Object containing two pieces of information.")
     make_album("ALI ZAFAR","JHOOM")
     make_album("ALI ZAFAR","MASTY")
     console.log("It is returning a Object with no of tracks also")
     make_album("ALI ZAFAR","TEEFA",3)
+  
