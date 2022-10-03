@@ -1,37 +1,37 @@
 // Seeing the World: Think of at least five places in the world you’d like to visit.
 // • Store the locations in a array. Make sure the array is not in alphabetical order.
-//
 // • Print your array in its original order.
-//
 // • Print your array in alphabetical order without modifying the actual list.
-//
 // • Show that your array is still in its original order by printing it.
-//
 // • Print your array in reverse alphabetical order without changing the order of the original list.
-//
 // • Show that your array is still in its original order by printing it again.
-//
 // • Reverse the order of your list. Print the array to show that its order has changed.
-//
 // • Reverse the order of your list again. Print the list to show it’s back to its original order.
-//
-// • Sort your array so it’s stored in alphabetical order. Print the array to show that its order has been changed.
-//
-// • Sort to change your array so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
+// • Sort your array so it’s stored in alphabetical order. Print the array to show that its order has 
+// been changed.
+// • Sort to change your array so it’s stored in reverse alphabetical order. Print the list 
+// to show that its order has changed.
 
-
-var city=["KARACHI","LAHORE","ISLAMABAD","PESHAWAR","MUMBAI"]
+let city=["KARACHI","LAHORE","ISLAMABAD","PESHAWAR","MUMBAI"]
 console.log(city)
+console.log("ORIGINAL ORDER")
 
 city.sort();
 console.log(city)
+console.log("IT IS SORTED IN ALPHABETICAL ORDER")
+
+city=["KARACHI","LAHORE","ISLAMABAD","PESHAWAR","MUMBAI"]
+console.log(city)
+console.log("STILL NOT MODIFIED")
 
 city.reverse();
 console.log(city)
+console.log("IT IS SORTED IN REVERSE")
 
-city.reverse();
+city=["KARACHI","LAHORE","ISLAMABAD","PESHAWAR","MUMBAI"]
 console.log(city)
+console.log("STILL NOT MODIFIED")
 
-
-
-
+city.sort()
+console.log(city)
+console.log("REVERSE SORTED")
