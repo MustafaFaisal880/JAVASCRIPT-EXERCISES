@@ -4,17 +4,15 @@
 // Call the function with the required information and two other name-value pairs,
 // such as a color or an optional feature. Print the Object that’s returned to make sure all the information was stored correctly.
 
+function car(color,feature){
+    let object={
+        model: "SWIFT",
+        manufacturer:"SUZUKI",
+        color:color,
+        feature:feature
+    }
+    console.log(object)
+    }
+    console.log(car)
+    car("RED","SUN-ROOF");
 
-
-
-function car(){
-let object={
-    model: "SWIFT",
-    manufacturer:"SUZUKI",
-    color:"RED",
-    feature:"SUN-ROOF"
-}
-console.log(object)
-}
-
-car();
