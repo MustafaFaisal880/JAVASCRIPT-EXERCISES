@@ -3,6 +3,6 @@
 
 var countries=["PAK",'IND',"AUS",'USA','CHINA']
 console.log(countries[5])
-Console.log("INTENTIONAL ERROR ABOVE")
-
+console.log("INTENTIONAL ERROR ABOVE")
 console.log(countries)
+console.log("REMOVED ERROR ABOVE")
