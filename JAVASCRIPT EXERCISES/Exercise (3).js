@@ -8,5 +8,5 @@
 
                                        // 3 EXERCISE:
 
-console.log('Albert Einstein once said: ')
-console.log('"A person who never made a mistake never tried anything new."')
+console.log('Abdul Sattar Edhi once said: ')
+console.log('“No religion is higher than humanity.”')
