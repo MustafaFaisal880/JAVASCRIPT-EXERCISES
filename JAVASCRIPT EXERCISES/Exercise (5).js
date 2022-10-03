@@ -6,6 +6,8 @@
 
 
 
-var name='mustafa'
-console.log('\n'+'\t' + name)
-console.log(name)
+var name='Mustafa'
+console.log(name+" WITHOUT ANY WHITESPACE")
+console.log("\n")
+console.log('\t' + name+" WITH \\t")
+console.log('\n'+name+" WITH \\n")
