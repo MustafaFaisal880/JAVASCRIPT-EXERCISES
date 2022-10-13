@@ -16,22 +16,31 @@ let city=["KARACHI","LAHORE","ISLAMABAD","PESHAWAR","MUMBAI"]
 console.log(city)
 console.log("ORIGINAL ORDER")
 
-city.sort();
-console.log(city)
+console.log(city.slice().sort())
 console.log("IT IS SORTED IN ALPHABETICAL ORDER")
 
-city=["KARACHI","LAHORE","ISLAMABAD","PESHAWAR","MUMBAI"]
 console.log(city)
 console.log("STILL NOT MODIFIED")
 
-city.reverse();
-console.log(city)
-console.log("IT IS SORTED IN REVERSE")
+console.log(city.slice().reverse())
+console.log("IT IS SORTED IN REVERSE ALPHABETICAL ORDER")
 
-city=["KARACHI","LAHORE","ISLAMABAD","PESHAWAR","MUMBAI"]
 console.log(city)
 console.log("STILL NOT MODIFIED")
 
-city.sort()
+// • Reverse the order of your list. Print the array to show that its order has changed.
+city=["MUMBAI","PESHAWAR","ISLAMABAD","LAHORE","KARACHI"]
 console.log(city)
-console.log("REVERSE SORTED")
+console.log("ORDER OF THE LIST IS REVERSED")
+
+// • Reverse the order of your list again. Print the list to show it’s back to its original order.
+console.log(city.reverse())
+console.log("ORDER IS REVERSED AGAIN SO THE ORIGINAL ORDER IS BACK")
+// • Sort your array so it’s stored in alphabetical order. Print the array to show that its order has 
+// been changed.
+console.log(city.reverse().sort())
+console.log("ORDER OF THE LIST IS IN ALPHABETICAL ORDER")
+// • Sort to change your array so it’s stored in reverse alphabetical order. Print the list 
+// to show that its order has changed.
+console.log(city.sort().reverse())
+console.log("ORDER OF THE LIST IS REVERSED APLHABETICAL ORDER")
